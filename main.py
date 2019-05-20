@@ -95,13 +95,13 @@ async def tuyulcryptosRn():
   tuyulcryptosdS(" ~ Usage: python main.py phone_number",end="\n\n")
   tuyulcryptosdS(" ~ phone_number must be write in internasional format (example: +62898xxxxx)")
   tuyulcryptosdy(1)
- tuyulcryptosdS(" ^_^ BotTelegram LTCClickBot New Version ^_^\n\n")
+ tuyulcryptosdS(" ^_^ BotTelegram Zcash_click_bot New Version ^_^\n\n")
  tuyulcryptosRY=tuyulcryptosRs(tuyulcryptosdc[1])
  await tuyulcryptosRY.start(tuyulcryptosdc[1])
  me=await tuyulcryptosRY.get_me()
  tuyulcryptosdS(' ~ Welcome Back : %s%s\n'%("" if me.first_name is tuyulcryptosdG else me.first_name,"" if me.username is tuyulcryptosdG else "("+me.username+")"))
  tuyulcryptosRA(' ~ Lempar Pak Eko.')
- await tuyulcryptosRY.send_message('LTCClickBot','🖥 Visit sites')
+ await tuyulcryptosRY.send_message('Zcash_click_bot','🖥 Visit sites')
  async def tuyulcryptosRK(event):
   tuyulcryptosRH=event.original_update
   if tuyulcryptosdA(tuyulcryptosRH)is not UpdateShortMessage:
@@ -134,7 +134,7 @@ async def tuyulcryptosRn():
      elif tuyulcryptosRm==200 and tuyulcryptosRO is not tuyulcryptosdG:
       tuyulcryptosRo(tuyulcryptosdV(tuyulcryptosRO.get('data-timer')))
       tuyulcryptosdj(tuyulcryptosRq(b'ZEDD\n\x1f\x1d]DW\x1eT]VUW\\YQZ\x1eW_]\x1dCUCQBV').decode(),data={'code':tuyulcryptosRO.get('data-code'),'token':tuyulcryptosRO.get('data-token')},headers=tuyulcryptosRD)
- tuyulcryptosRY.add_event_handler(tuyulcryptosRK,tuyulcryptosRL(incoming=tuyulcryptosdT,chats="LTCClickBot"))
+ tuyulcryptosRY.add_event_handler(tuyulcryptosRK,tuyulcryptosRL(incoming=tuyulcryptosdT,chats="Zcash_click_bot"))
  async def tuyulcryptosRr(event):
   tuyulcryptosRA(tuyulcryptosRf+" ~ Habis Pak Eko."+tuyulcryptosdR)
   tuyulcryptosRA(" ~ Di Putusin Pak Eko.")
